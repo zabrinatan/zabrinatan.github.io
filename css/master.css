@@ -1,0 +1,34 @@
+body {
+  margin: 0 auto;
+}
+#first-section {
+  background-image: url(../images/Sydney.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+#overlay {
+  background-color: rgba(0,0,0,0.3);
+  height: 100vh;
+  width: 100vw;
+}
+
+#home-svg {
+    height: 150px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 3;
+
+
+  }
+  /* svg:not(:root) {
+    overflow: hidden;
+} */
+
+#home-svg .p-curve {
+    fill: #fff;
+}
