@@ -1,15 +1,41 @@
 body {
   margin: 0 auto;
 }
-#first-section {
+
+/* .container {
+  margin: 0 auto;
+  display: block;
+} */
+
+nav {
+  position: fixed;
+  top: 0;
+  text-align: right;
+  z-index: 3;
+  margin: 0 auto;
+  width: 100vw;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1% 2%;
+  color: white;
+}
+
+#section_1 {
+  margin: 0 auto;
   background-image: url(../images/Sydney.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
+  z-index: 0;
 }
 
 #overlay {
+  margin: 0 auto;
   background-color: rgba(0,0,0,0.3);
   height: 100vh;
   width: 100vw;
@@ -22,13 +48,30 @@ body {
     bottom: 0px;
     left: 0;
     z-index: 3;
-
-
   }
+
+  #name {
+    margin: 0 auto;
+    padding: 10% 0;
+    text-align: center;
+  }
+
+  #name h1, #name h2 {
+    color: white;
+    margin: 0 auto;
+    font-size: 400%;
+  }
+
   /* svg:not(:root) {
     overflow: hidden;
 } */
 
 #home-svg .p-curve {
     fill: #fff;
+}
+
+.box {
+  height: 100vh;
+  width: 100vw;
+  background-color: grey;
 }
