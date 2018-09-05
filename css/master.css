@@ -125,7 +125,7 @@ nav a {
   fill: pink;
 }
 
-#section_3 video {
+#section_3 video, #section_3 img {
   width: 100%;
   margin: 2%;
   border-radius: 1em;
@@ -133,6 +133,11 @@ nav a {
 
 #section_3 video:hover {
   box-shadow: 0 0 15px grey;
+}
+
+#section_3 img:hover {
+  box-shadow: 0 0 15px grey;
+
 }
 
 #section_3{
@@ -157,10 +162,18 @@ nav a {
   text-align: center;
 } */
 
-#section_3 #tictactoe, #dashboard, #meetyou{
+#section_3 #tictactoe, #dashboard, #meetyou, #loseit{
   display: inline-block;
   width: 25%;
-  margin: 2%;
+  margin: 1% 2%;
+  vertical-align: top;
+
+}
+
+#portfolio {
+  display: inline-block;
+  width: 30%;
+  margin: 1% 2%;
   vertical-align: top;
 }
 
@@ -173,5 +186,5 @@ nav a {
 }
 
 #section_3 h1 {
-  padding-top: 6%;
+  padding-top: 5%;
 }
