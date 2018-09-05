@@ -237,3 +237,22 @@ i:hover{
 
   /* list-style-type: none; */
 }
+
+.icons {
+margin: 0 auto;
+margin-top: 2%;
+width: 80%;
+}
+.icons i {
+  font-size: 500%;
+  margin: 4%;
+}
+
+#section_4 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#section_4 h1 {
+  margin-top: 7%;
+}
