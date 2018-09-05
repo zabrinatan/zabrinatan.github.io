@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  /* overflow:hidden; */
 }
 
 /* .container {
@@ -80,12 +81,14 @@ nav a {
 }
 
 #section_2 .photo {
+  margin-top: 10%;
+  margin-left: 3%;
   border-radius: 500em;
 }
 
 #arrow {
-  margin-top: 4%;
-  width: 2%;
+  margin-top: 13%;
+  width: 3%;
 }
 
 #arrow #arrowpath{
@@ -94,6 +97,11 @@ nav a {
 
 #arrow:hover{
   cursor: pointer;
+
+}
+
+#arrow:hover #arrowpath{
+  fill: pink;
 }
 
 #section_3 video {

@@ -1,7 +1,26 @@
 $(document).ready(function (){
+  const checkSection = function(){
+    if($("#1").hasClass("active")===false){
+      $('nav').addClass("fixnav");
+    }else{
+      $('nav').removeClass('fixnav');
+    }
 
-  $('nav a').on('click', function(){
+  }
 
+  $(window).scroll(function(){
+    scroll =  $(window).scrollTop()
+    if(scroll > 620) {
+      $('nav').addClass("fixnav")
+    }else{
+      $('nav').removeClass('fixnav')
+    }
+
+  })
+
+
+  $('nav a').on('click', function(e){
+      e.preventDefault();
     let target  = $( this );
     var element = target.attr('href');
 
@@ -12,11 +31,7 @@ $(document).ready(function (){
       }, 1000);
 
 
-  if($("#1").hasClass("active")===false){
-    $('nav').addClass("fixnav");
-  }else{
-    $('nav').removeClass('fixnav');
-  }
+      checkSection();
 
   })
 
@@ -25,6 +40,11 @@ $(document).ready(function (){
     $("body, html").animate({
         scrollTop: $( "#section_2" ).offset().top
       }, 1000);
+      $("#1").removeClass('active');
+      $("#2").addClass('active');
+
+      checkSection();
+
 
   })
 
