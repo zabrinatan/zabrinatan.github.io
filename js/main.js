@@ -1,4 +1,7 @@
 $(document).ready(function (){
+let video = 0;
+
+
   const checkSection = function(){
     if($("#1").hasClass("active")===false){
       $('nav').addClass("fixnav");
@@ -82,6 +85,7 @@ $(document).ready(function (){
       checkSection();
 
 
+
   })
 
   $('#section_3 video').mouseover(function(){
@@ -99,7 +103,6 @@ $(document).ready(function (){
     adaptiveHeight: true,
     nextArrow: '<i class="fas fa-arrow-circle-right"></i>',
     prevArrow: '<i class="fas fa-arrow-circle-left" width="100"></i>'
-
 
   })
 

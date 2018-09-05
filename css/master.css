@@ -178,6 +178,14 @@ nav a {
 
 }
 
+#portfolio img {
+  display: inline-block;
+  width: 40%;
+  /* height: 40vh; */
+  margin: 1% 2%;
+  vertical-align: top;
+}
+
 
 #tictactoe .links {
   display: block;
@@ -206,4 +214,9 @@ i {
   font-size: 50px;
   display: inline-block;
 
+}
+
+i:hover{
+  color: grey;
+  cursor: pointer;
 }
