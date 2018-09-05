@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
 body {
   margin: 0 auto;
   /* overflow:hidden; */
+  font-family: 'Karla', sans-serif;
+
 }
 
 /* .container {
@@ -94,7 +98,9 @@ nav a {
 }
 
 #section_2 .about-me {
-  margin-top: 7%;
+  font-family: 'Karla', sans-serif;
+
+  margin-top: 5%;
   display: inline-block;
   max-width: 40%;
   text-align: justify;
@@ -104,6 +110,8 @@ nav a {
 }
 
 .about-me #title {
+  font-family: 'Karla', sans-serif;
+
   font-weight: bolder;
 }
 
@@ -126,7 +134,7 @@ nav a {
 }
 
 #section_3 video, #section_3 img {
-  width: 100%;
+  width: 30%;
   margin: 2%;
   border-radius: 1em;
 }
@@ -162,7 +170,7 @@ nav a {
   text-align: center;
 } */
 
-#section_3 #tictactoe, #dashboard, #meetyou, #loseit{
+#section_3 #tictactoe, #dashboard, #meetyou, #loseit, #portfolio{
   display: inline-block;
   width: 25%;
   margin: 1% 2%;
@@ -170,12 +178,6 @@ nav a {
 
 }
 
-#portfolio {
-  display: inline-block;
-  width: 30%;
-  margin: 1% 2%;
-  vertical-align: top;
-}
 
 #tictactoe .links {
   display: block;
@@ -185,6 +187,23 @@ nav a {
 
 }
 
+.port-content {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
 #section_3 h1 {
   padding-top: 5%;
+}
+
+.portfolio-carousel {
+  width: 100vw;
+  display: inline-block;
+}
+
+i {
+  font-size: 50px;
+  display: inline-block;
+
 }
