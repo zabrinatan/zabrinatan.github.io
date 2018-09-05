@@ -93,6 +93,7 @@ nav a {
 
 .active {
   text-decoration: underline;
+  color: #E9C46A;
 }
 
 #section_2 {
@@ -143,7 +144,7 @@ nav a {
 }
 
 #arrow:hover #arrowpath{
-  fill: pink;
+  fill: #E9C46A;
 }
 
 
@@ -155,16 +156,17 @@ nav a {
 }
 
 #section_3 video:hover {
-  box-shadow: 0 0 15px grey;
+  box-shadow: 0 0 15px #E9C46A;
 }
 
 #section_3 img:hover {
-  box-shadow: 0 0 15px grey;
+  box-shadow: 0 0 15px #E9C46A;
 
 }
 
 #section_3{
   text-align: center;
+  background-color: #E9C46A;
 }
 
 .fixnav{
@@ -178,7 +180,7 @@ nav a {
 }
 
 #social img:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /* #section_3 {
@@ -240,7 +242,7 @@ i {
 }
 
 i:hover{
-  color: grey;
+  color: white;
   cursor: pointer;
 }
 
@@ -277,6 +279,9 @@ width: 80%;
   text-align: center;
 }
 
+#section_5 {
+  background-color: #E9C46A;
+}
 #section_4 h1, #section_5 h1 {
   padding-top: 6%;
   margin: 0 auto;
@@ -329,7 +334,7 @@ width: 80%;
 }
 
 .image-button button:hover {
-  background-color: white;
+  background-color: #E9C46A;
   color: black;
   cursor: pointer;
 }
@@ -338,6 +343,8 @@ width: 80%;
 
   margin: 0 2%;
 }
+
+
 
 nav .tag {
   font-weight: bolder;
@@ -348,5 +355,6 @@ nav .tag {
   margin: 0.5%;
   margin-left: 1%;
   font-size: 150%;
+  color: #E9C46A;
 
 }
