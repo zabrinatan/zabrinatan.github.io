@@ -333,3 +333,8 @@ width: 80%;
   color: black;
   cursor: pointer;
 }
+
+#arrow-buttons i{
+
+  margin: 0 2%;
+}
