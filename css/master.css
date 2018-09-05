@@ -126,7 +126,7 @@ nav a {
 }
 
 #section_3 video {
-  width: 30%;
+  width: 100%;
   margin: 2%;
   border-radius: 1em;
 }
@@ -157,8 +157,11 @@ nav a {
   text-align: center;
 } */
 
-#section_3 #tictactoe {
+#section_3 #tictactoe, #dashboard, #meetyou{
   display: inline-block;
+  width: 25%;
+  margin: 2%;
+  vertical-align: top;
 }
 
 #tictactoe .links {
@@ -167,4 +170,8 @@ nav a {
 #tictactoe .links a{
   text-decoration: none;
 
+}
+
+#section_3 h1 {
+  padding-top: 6%;
 }
