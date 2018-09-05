@@ -5,8 +5,11 @@ $(document).ready(function() {
   const checkSection = function() {
     if ($("#1").hasClass("active") === false) {
       $('nav').addClass("fixnav");
+      $('.tag').css('display', 'inline-block');
     } else {
       $('nav').removeClass('fixnav');
+      $('.tag').hide();
+
     }
 
   }
@@ -21,6 +24,8 @@ $(document).ready(function() {
       $('#3').removeClass('active');
       $('#4').removeClass('active');
       $('#5').removeClass('active');
+      $('.tag').css('display', 'inline-block');
+
 
     } else {
       $('nav').removeClass('fixnav')
@@ -29,6 +34,8 @@ $(document).ready(function() {
       $('#3').removeClass('active');
       $('#4').removeClass('active');
       $('#5').removeClass('active');
+      $('.tag').hide();
+
 
     }
 
@@ -39,6 +46,9 @@ $(document).ready(function() {
       $('#4').removeClass('active');
       $('#5').removeClass('active');
       $('#1').removeClass('active');
+      $('.tag').css('display', 'inline-block');
+
+
     } else if (scroll > 2015 && scroll < 2715) {
       $('nav').addClass("fixnav")
       $('#4').addClass('active');
@@ -46,6 +56,8 @@ $(document).ready(function() {
       $('#5').removeClass('active');
       $('#2').removeClass('active');
       $('#1').removeClass('active');
+      $('.tag').css('display', 'inline-block');
+
     } else if (scroll > 2715) {
       $('nav').addClass("fixnav")
       $('#5').addClass('active');
@@ -53,6 +65,8 @@ $(document).ready(function() {
       $('#3').removeClass('active');
       $('#2').removeClass('active');
       $('#1').removeClass('active');
+      $('.tag').css('display', 'inline-block');
+
     }
 
   })

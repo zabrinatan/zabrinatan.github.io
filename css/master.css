@@ -338,3 +338,15 @@ width: 80%;
 
   margin: 0 2%;
 }
+
+nav .tag {
+  font-weight: bolder;
+  display: none;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  margin: 0.5%;
+  margin-left: 1%;
+  font-size: 150%;
+
+}
