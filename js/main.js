@@ -102,7 +102,8 @@ $(document).ready(function() {
     infinite: true,
     adaptiveHeight: true,
     nextArrow: '<i class="fas fa-arrow-circle-right"></i>',
-    prevArrow: '<i class="fas fa-arrow-circle-left" width="100"></i>'
+    prevArrow: '<i class="fas fa-arrow-circle-left" width="100"></i>',
+    appendArrows: $('#arrow-buttons')
 
   })
 
