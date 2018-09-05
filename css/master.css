@@ -186,11 +186,12 @@ nav a {
 #social img {
   display: inline-block;
   width: 50px;
+  opacity: 0.5;
 
 }
 
 #social img:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 /* #section_3 {
