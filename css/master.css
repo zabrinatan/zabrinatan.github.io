@@ -127,9 +127,8 @@ nav a {
 
 #section_3 video {
   width: 30%;
-  display: inline-block;
   margin: 2%;
-
+  border-radius: 1em;
 }
 
 #section_3 video:hover {
@@ -152,4 +151,20 @@ nav a {
 
 #social img:hover {
   opacity: 0.7;
+}
+
+/* #section_3 {
+  text-align: center;
+} */
+
+#section_3 #tictactoe {
+  display: inline-block;
+}
+
+#tictactoe .links {
+  display: block;
+}
+#tictactoe .links a{
+  text-decoration: none;
+
 }
