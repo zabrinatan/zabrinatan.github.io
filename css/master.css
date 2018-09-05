@@ -62,10 +62,20 @@ nav a {
     text-align: center;
   }
 
-  #name h1, #name h2 {
+  #name h1 {
     color: white;
     margin: 0 auto;
+    margin-top: 4%;
+    margin-botton: 2%;
+    font-size: 500%;
+    /* font-style: italic; */
+
+  }
+  #name h2 {
+    margin: 0 auto;
     font-size: 400%;
+    font-style: italic;
+    color: white;
   }
 
   /* svg:not(:root) {
@@ -101,7 +111,7 @@ nav a {
 #section_2 .about-me {
   font-family: 'Karla', sans-serif;
 
-  margin-top: 5%;
+  margin-top: 8%;
   display: inline-block;
   max-width: 40%;
   text-align: justify;
@@ -116,8 +126,10 @@ nav a {
   font-weight: bolder;
 }
 
+
+
 #arrow {
-  margin-top: 13%;
+  margin-top: 10%;
   width: 3%;
 }
 
@@ -133,6 +145,8 @@ nav a {
 #arrow:hover #arrowpath{
   fill: pink;
 }
+
+
 
 #section_3 video, #section_3 img {
   width: 30%;
@@ -270,14 +284,18 @@ width: 80%;
 
 .mail, .phone {
   display: inline-block;
+  /* width: 20%; */
+  padding: 5%;
+}
+.mail img{
   width: 30%;
 }
-.mail img, .phone img{
-  width: 20%;
+.phone img {
+  width: 50%;
 }
 
 .mail a, .phone p {
-  font-size: 200%;
+  font-size: 150%;
   display: block;
   text-decoration: none;
   color: black;
@@ -288,7 +306,7 @@ width: 80%;
 }
 
 #section_2 .image-button {
-  margin-top: 10%;
+  margin-top: 8%;
   display: inline-block;
   vertical-align: top;
 
