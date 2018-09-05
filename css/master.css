@@ -140,3 +140,13 @@ nav a {
 .fixnav{
   background-color: black;
 }
+
+#social img {
+  display: inline-block;
+  width: 50px;
+
+}
+
+#social img:hover {
+  opacity: 0.7;
+}
