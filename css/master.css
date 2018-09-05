@@ -132,6 +132,16 @@ nav a {
 #arrow {
   margin-top: 10%;
   width: 3%;
+  animation: bounce;
+  animation-duration: 0.5s;
+  animation: bounce 0.5s;
+ animation-direction: alternate;
+ animation-iteration-count: 2;
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 50px, 0); }
 }
 
 #arrow #arrowpath{
