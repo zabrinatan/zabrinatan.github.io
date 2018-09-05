@@ -258,12 +258,31 @@ width: 80%;
   margin: 4%;
 }
 
-#section_4 {
+#section_4, #section_5 {
   margin: 0 auto;
   text-align: center;
 }
 
-#section_4 h1 {
+#section_4 h1, #section_5 h1 {
   padding-top: 6%;
   margin: 0 auto;
+}
+
+.mail, .phone {
+  display: inline-block;
+  width: 30%;
+}
+.mail img, .phone img{
+  width: 20%;
+}
+
+.mail a, .phone p {
+  font-size: 200%;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  margin-top: 5%;
 }
