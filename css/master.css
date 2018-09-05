@@ -91,7 +91,7 @@ nav a {
 
 #section_2 .photo {
 
-  margin-top: 14%;
+  /* margin-top: 14%; */
   margin-left: 3%;
   border-radius: 500em;
   display: inline-block;
@@ -285,4 +285,33 @@ width: 80%;
 
 .contact {
   margin-top: 5%;
+}
+
+#section_2 .image-button {
+  margin-top: 10%;
+  display: inline-block;
+  vertical-align: top;
+
+
+}
+
+.image-button button {
+  font-family: 'Karla', sans-serif;
+
+  width: 60%;
+  padding: 5%;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  display: block;
+  margin: 10% auto;
+  font-size: 120%;
+  border-radius: 0.5em;
+  transition: 0.2s;
+}
+
+.image-button button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }

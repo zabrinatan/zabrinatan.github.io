@@ -106,6 +106,10 @@ let video = 0;
 
   })
 
+  $("#resume").click(function(){
+    window.open('https://drive.google.com/file/d/1rcd6DzegZ7MW1hNsaC-NTaHQASl4xBVw/view')
+  })
+
 
 
 })
