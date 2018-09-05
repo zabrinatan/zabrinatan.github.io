@@ -80,10 +80,28 @@ nav a {
   text-decoration: underline;
 }
 
+#section_2 {
+  text-align: center;
+}
+
 #section_2 .photo {
+
   margin-top: 10%;
   margin-left: 3%;
   border-radius: 500em;
+  display: inline-block;
+}
+
+#section_2 .about-me {
+  margin-top: 10%;
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  margin-left: 10%;
+}
+
+.about-me #title {
+  font-weight: bolder;
 }
 
 #arrow {

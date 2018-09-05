@@ -64,7 +64,7 @@ $(document).ready(function (){
     target.addClass('active');
     $("body, html").animate({
         scrollTop: $( element ).offset().top
-      }, 1000);
+      }, 500);
 
 
       checkSection();
@@ -75,7 +75,7 @@ $(document).ready(function (){
 
     $("body, html").animate({
         scrollTop: $( "#section_2" ).offset().top
-      }, 1000);
+      }, 500);
       $("#1").removeClass('active');
       $("#2").addClass('active');
 
