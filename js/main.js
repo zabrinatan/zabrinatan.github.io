@@ -102,13 +102,6 @@ $(document).ready(function() {
 
   })
 
-  $('#section_3 video').mouseover(function() {
-    $(this).get(0).play();
-  })
-
-  $('#section_3 video').mouseout(function() {
-    $(this).get(0).pause();
-  })
 
 
   $(".portfolio-carousel").slick({
@@ -122,7 +115,7 @@ $(document).ready(function() {
   })
 
   $("#resume").click(function() {
-    window.open('https://drive.google.com/file/d/1rcd6DzegZ7MW1hNsaC-NTaHQASl4xBVw/view')
+    window.open('https://drive.google.com/file/d/1XrZ6PZrQFoPYQ0HvenWDq-dwKfwWM2Cy/view?usp=sharing')
   })
 
 
