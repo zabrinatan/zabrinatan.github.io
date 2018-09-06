@@ -208,7 +208,15 @@ nav a {
 
 #portfolio img {
   display: inline-block;
-  width: 40%;
+  width: 30%;
+  /* height: 40vh; */
+  margin: 1% 2%;
+  vertical-align: top;
+}
+
+#tictactoe img, #dashboard img, #meetyou img, #loseit img {
+  display: inline-block;
+  width: 30%;
   /* height: 40vh; */
   margin: 1% 2%;
   vertical-align: top;
