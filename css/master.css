@@ -388,6 +388,10 @@ nav .tag {
     visibility: hidden;
   }
 
+  #arrow {
+    width: 10%;
+  }
+
   #tictactoe img, #dashboard img, #meetyou img, #loseit img, #portfolio img{
     width: 50%;
   }
@@ -441,6 +445,10 @@ nav .tag {
     font-size: 110%;
 
   }
+
+  #arrow {
+    width: 10%;
+  }
   #section_4 h1, #section_5 h1, #section_3 h1 {
     padding-top: 15%;
   }
@@ -471,7 +479,9 @@ nav .tag {
   font-size: 150%;
 
 }
-
+#arrow {
+  width: 10%;
+}
 #tictactoe img, #dashboard img, #meetyou img, #loseit img, #portfolio img{
   width: 50vw;
 }
