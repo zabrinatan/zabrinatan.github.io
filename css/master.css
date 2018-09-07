@@ -385,6 +385,22 @@ nav .tag {
     height: 250vh;
   }
 
+  #tictactoe img, #dashboard img, #meetyou img, #loseit img, #portfolio img{
+    width: 50%;
+  }
+  .portfolio-carousel{
+    /* margin: 10% auto; */
+    height: 100vh;
+    /* font-size: 150%; */
+
+  }
+  #section_4 h1, #section_5 {
+    padding-top: 15%;
+  }
+  .port-content {
+    width: 80%;
+  }
+
   #section_2 .about-me {
     font-family: 'Karla', sans-serif;
 
@@ -407,6 +423,22 @@ nav .tag {
   #section_2 {
     height: 150vh;
   }
+  #tictactoe img, #dashboard img, #meetyou img, #loseit img, #portfolio img{
+    width: 50%;
+  }
+  .portfolio-carousel{
+    /* margin: 10% auto; */
+    height: 100vh;
+    font-size: 110%;
+
+  }
+  #section_4 h1, #section_5 {
+    padding-top: 15%;
+  }
+  .port-content {
+    width: 80%;
+  }
+
 
   #section_2 .about-me {
     font-family: 'Karla', sans-serif;
