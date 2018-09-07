@@ -377,3 +377,76 @@ nav .tag {
   color: #E9C46A;
 
 }
+
+/* media queries */
+
+@media (max-width: 500px) and (max-height: 700px){
+  #section_2 {
+    height: 250vh;
+  }
+
+  #section_2 .about-me {
+    font-family: 'Karla', sans-serif;
+
+    margin-top: 8%;
+    display: inline-block;
+    max-width: 90%;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    margin: 0 auto;
+  }
+
+  #section_4 {
+    height: 150vh;
+  }
+}
+
+
+@media (max-width: 500px) and (min-height: 701px){
+  #section_2 {
+    height: 150vh;
+  }
+
+  #section_2 .about-me {
+    font-family: 'Karla', sans-serif;
+    margin-top: 8%;
+    display: inline-block;
+    max-width: 90%;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    margin: 0 auto;
+  }
+  #section_4 {
+    height: 120vh;
+  }
+}
+
+@media (width: 768px ) and (height: 1024px ) {
+.portfolio-carousel{
+  margin: 10% auto;
+  height: 100vh;
+  font-size: 150%;
+
+}
+
+#tictactoe img, #dashboard img, #meetyou img, #loseit img, #portfolio img{
+  width: 50vw;
+}
+
+.port-content {
+  width: 80%;
+}
+
+#section_4 h1, #section_5 {
+  padding-top: 15%;
+}
+
+.icons i {
+  font-size: 600%;
+  margin: 8% 4%;
+}
+
+
+}
