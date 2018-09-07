@@ -384,6 +384,9 @@ nav .tag {
   #section_2 {
     height: 250vh;
   }
+  .tag{
+    visibility: hidden;
+  }
 
   #tictactoe img, #dashboard img, #meetyou img, #loseit img, #portfolio img{
     width: 50%;
@@ -423,6 +426,12 @@ nav .tag {
   #section_2 {
     height: 150vh;
   }
+
+  .tag{
+    visibility: hidden;
+  }
+
+
   #tictactoe img, #dashboard img, #meetyou img, #loseit img, #portfolio img{
     width: 50%;
   }
@@ -432,7 +441,7 @@ nav .tag {
     font-size: 110%;
 
   }
-  #section_4 h1, #section_5 {
+  #section_4 h1, #section_5 h1, #section_3 h1 {
     padding-top: 15%;
   }
   .port-content {
