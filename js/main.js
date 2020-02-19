@@ -1,7 +1,4 @@
 $(document).ready(function() {
-  let video = 0;
-
-
   const checkSection = function() {
     if ($("#1").hasClass("active") === false) {
       $('nav').addClass("fixnav");
@@ -9,14 +6,11 @@ $(document).ready(function() {
     } else {
       $('nav').removeClass('fixnav');
       $('.tag').hide();
-
     }
-
   }
 
   $(window).scroll(function() {
     scroll = $(window).scrollTop()
-    console.log(scroll)
     if (scroll > 620 && scroll < 1322) {
       $('nav').addClass("fixnav")
       $('#2').addClass('active');
@@ -35,8 +29,6 @@ $(document).ready(function() {
       $('#4').removeClass('active');
       $('#5').removeClass('active');
       $('.tag').hide();
-
-
     }
 
     if (scroll > 1322 && scroll < 2015) {
@@ -71,7 +63,6 @@ $(document).ready(function() {
 
   })
 
-
   $('nav a').on('click', function(e) {
     e.preventDefault();
     let target = $(this);
@@ -82,10 +73,7 @@ $(document).ready(function() {
     $("body, html").animate({
       scrollTop: $(element).offset().top
     }, 500);
-
-
     checkSection();
-
   })
 
   $('#arrow').on('click', function() {
