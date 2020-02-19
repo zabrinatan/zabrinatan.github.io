@@ -2,15 +2,9 @@
 
 body {
   margin: 0 auto;
-  /* overflow:hidden; */
   font-family: 'Karla', sans-serif;
 
 }
-
-/* .container {
-  margin: 0 auto;
-  display: block;
-} */
 
 nav {
   position: fixed;
@@ -78,10 +72,6 @@ nav a {
     color: white;
   }
 
-  /* svg:not(:root) {
-    overflow: hidden;
-} */
-
 #home-svg .p-curve {
     fill: #fff;
 }
@@ -101,8 +91,6 @@ nav a {
 }
 
 #section_2 .photo {
-
-  /* margin-top: 14%; */
   margin-left: 3%;
   border-radius: 500em;
   display: inline-block;
@@ -111,7 +99,6 @@ nav a {
 
 #section_2 .about-me {
   font-family: 'Karla', sans-serif;
-
   margin-top: 8%;
   display: inline-block;
   max-width: 40%;
@@ -209,7 +196,6 @@ nav a {
 #portfolio img {
   display: inline-block;
   width: 30%;
-  /* height: 40vh; */
   margin: 1% 2%;
   vertical-align: top;
 }
@@ -217,7 +203,6 @@ nav a {
 #tictactoe img, #dashboard img, #meetyou img, #loseit img {
   display: inline-block;
   width: 30%;
-  /* height: 40vh; */
   margin: 1% 2%;
   vertical-align: top;
 }
@@ -270,7 +255,7 @@ i:hover{
 text-align: left;
 }
 
-.tech span{
+.tech span {
 
     color: white;
     background-color: black;
@@ -280,13 +265,11 @@ text-align: left;
     display: inline-block;
     margin: 1% 1%;
     text-align: center;
-
-  /* list-style-type: none; */
 }
 
 .icons {
-margin: 0 auto;
-width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 .icons i {
   font-size: 500%;
@@ -308,7 +291,6 @@ width: 80%;
 
 .mail, .phone {
   display: inline-block;
-  /* width: 20%; */
   padding: 5%;
 }
 .mail img{
@@ -437,7 +419,10 @@ nav .tag {
     height: 150vh;
   }
 }
-
+.ember {
+  width: 90px;
+  vertical-align: text-bottom;
+}
 
 @media (max-width: 500px) and (min-height: 701px){
   #section_2 {
