@@ -103,7 +103,7 @@ $(document).ready(function() {
   })
 
   $("#resume").click(function() {
-    window.open('https://drive.google.com/file/d/1pU6EBxHRObdoqieFc5kFKqPnXc-Uq6-3/view?usp=sharing')
+    window.open('https://drive.google.com/file/d/1yF0wUh2EgfnSu8FRfOwXva9HBSnFmHOU/view?usp=sharing')
   })
 
 
